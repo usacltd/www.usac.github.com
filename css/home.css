@@ -1,0 +1,50 @@
+#home {
+  color: #fff;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  background: #000111 url(../img/home/bg.png) 50% 0 no-repeat;
+}
+.home-container {
+  height: 100%;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  background: rgb(0,0,0,0.8);
+}
+#home .logo {
+  width: 20%;
+  height: 20%;
+  position: relative;
+}
+#home .logo:hover {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  transition: 1s;
+  transform: scale(1.5);
+}
+#home .Name {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  font-weight: 200;
+  font-family: Mutant Academy BB;
+}
+#home .Silogan {
+  color: rgb(20, 110, 20);
+  font-size: 25px;
+  text-align: center;
+  
+}
+#home hr {
+  width: 30%;
+}
+#home .Desc {
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+  font-size: 20px;
+  color: #fff;
+  font-family: Berlin Sans FB;
+}

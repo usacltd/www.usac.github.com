@@ -1,0 +1,166 @@
+#contact {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  height: auto;
+  background: #fff;
+}
+.contact-box {
+	float: left;
+	width: 50%;
+	height: auto;
+	padding: 20px;
+	background: #fff;
+}
+.contact-box fieldset {
+	border: none;
+	text-align: center;
+	border-top: 2px solid rgb(20, 110, 20);
+}
+.contact-box-title {
+	font-size: 20px;
+	padding: 5px 20px;
+	border-radius: 50px;
+	border-top: 2px solid #fff;
+	background: rgb(20, 110, 20);
+	font-weight: 400;
+	color: #fff;
+	border: none;
+	margin-bottom: 50px;
+	font-family: "Roboto Slab", serif;
+}
+.address {
+	position: relative;
+}
+.adress li {
+	color: #fff;
+	text-align: left;
+	display: inline-block;
+	padding: 10px 5px;
+	
+}
+.adress #link {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	transition: .5s;
+	background: #797979;
+}
+.adress #link:hover {
+	transition: .5s;
+	background: rgb(5, 65, 115);
+}
+.shareBtn {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 6px;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: .5s;
+	background: #000;
+}
+.shareBtn:hover, 
+.shareBtn:focus {
+	transition: .5s;
+	background: rgb(5, 65, 115);
+}
+.share-content {
+	width: 30%;
+	text-align: left;
+	padding: 20px;
+	background: #f00;
+	margin-left: 35%;
+	display: none;
+	border-radius: 5px;
+	animation: .5s zoom;
+}
+.share-content li {
+	padding: 10px;
+    display: block;
+}
+.share-content li:hover {
+	background: rgb(5, 65, 115);
+}
+.share-content li a {
+	color: #fff;
+	text-decoration: none;
+}
+.show  {
+	display: block;
+}
+.input {
+	text-align: left;
+	position: relative;
+	margin-left: 10%;
+}
+.contact-box label {
+	top: 0;
+	left: 0;
+	color: #797979;
+	margin-left: 30px;
+	padding: 15px 10px;
+	font-size: 15px;
+	transition: 1s;
+	position: absolute;
+	pointer-events: none;
+}
+.contact-box input {
+	width: 80%;
+	margin-left: 20px;
+    font-size: 14px;
+    padding: 15px 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 2px solid #797979;
+}
+.contact-box textarea {
+	width: 80%;
+	resize: none;
+	height: 100px;
+	margin-left: 20px;
+	box-shadow: none;
+    font-size: 14px;
+    padding: 15px 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 2px solid #797979;
+}
+.contact-box input:focus,
+.contact-box textarea:focus {
+    color: #000;
+	transition: 1s;
+	border: 2px solid rgb(5, 65, 115);
+}
+.contact-box input:valid, 
+.contact-box textarea:valid {
+	color: #000;
+	border: 2px solid rgb(20, 110, 20);
+}
+.contact-box input:focus ~ label, 
+.contact-box input:valid ~ label,
+.contact-box textarea:focus ~ label, 
+.contact-box textarea:valid ~ label {
+	top: -13px;
+	left: 0;
+	padding: 0;
+	padding: 5px;
+	color: rgb(5, 65, 115);
+	font-size: 13px;
+	transition: 1s;
+	background: #fff;
+}
+.contact-box button {
+	width: 50%;
+  	color: #fff;
+  	border: none;
+  	padding: 15px 0;
+  	font-size: 15px;
+  	cursor: pointer;
+  	border-radius: 50px;
+  	background: rgb(5, 65, 115);
+}
+.contact-box button:hover {
+  	opacity: .8;
+}

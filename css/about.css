@@ -1,0 +1,137 @@
+#about {
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: rgb(0, 0, 0);
+}
+.about-desc {
+    color: #2a2a2a;
+    font-size: 20px;
+    width: 50%;
+    cursor: none;
+    text-align: justify;
+    margin-left: 25%;
+}
+.about-our {
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.column  {
+    width: 50%;
+    height: 300px;
+    overflow: auto;
+    color: #fff;
+    text-align: center;
+    margin-left: 20%;
+    padding: 30px 40px;
+    border-radius: 50px;
+    background: transparent;
+    border-left: 3px solid rgb(20, 110, 20);
+    border-right: 3px solid rgb(20, 110, 20);
+}
+.column .column-title {
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(20, 110, 20);
+}
+.team {
+    margin-left: 5%;
+}
+.team fieldset {
+    border: none;
+    width: 50%;
+    margin-left: 23%;
+    border-top: 2px solid #2a2a2a;
+}
+.team .team-title {
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    padding: 20px;
+    color: #1a2a3a;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.team-container {
+    width: 30%;
+    float: left;
+    background: transparent;
+    margin-left: 10px;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.team-container .name {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.team-container .post {
+    color: #797979;
+    font-size: 15px;
+    cursor: pointer;
+}
+.team-container p {
+    color: #ffffff;
+    font-size: 15px;
+}
+.team-container li.icon {
+    width: 30px;
+    height: 30px;
+    padding-top: 6px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+}
+.team-container li.icon a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.team-container li.icon:hover {
+    background: rgb(5, 65, 115);
+}
+.collapsible {
+    color: #fff;
+    padding: 15px;
+    width: 80%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .5s;
+    text-align: center;
+    margin-left: 10%;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgb(20, 110, 20);
+}
+.active {
+    font-size: 25px;
+    transition: .5s;
+    border-radius: 50px 50px 0 0;
+}
+.collapsible-content {
+    color: #fff;
+    display: none;
+    overflow: hidden;
+    width: 80%;
+    height: auto;
+    padding: 40px;
+    margin-left: 10%;
+    text-align: center;
+    transition: .5s;
+    animation: .5s zoom;
+    background: rgb(20, 110, 20);
+    border-radius: 0 0 50px 50px;
+}
+.collapsible-content img {
+    width: 100%;
+    border-radius: 10px;
+}

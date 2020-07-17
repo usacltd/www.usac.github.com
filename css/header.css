@@ -1,0 +1,89 @@
+header {
+    top: 0;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    padding: 10px;
+    position: absolute;
+    color: rgb(5, 15, 115);
+}
+header.fixed {
+    border: none;
+    position: fixed;
+    background: rgb(5, 65, 115);
+    border-bottom: 1px solid #797979;
+}
+.status {
+    float: left;
+    font-size: 15px;
+    padding: 5px 10px;
+    width: auto;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    margin-left: 50px;
+    background: rgb(20, 110, 20);
+    animation: status 5s linear 5s infinite alternate;
+}
+.status:hover {
+    opacity: 1;
+}
+@keyframes status {
+    0% {
+        transform: translateY(-200%);
+    }
+    20% {
+        transform: translateY(0%);
+    }
+}
+.status li {
+    display: inline-block;
+}
+.lavaLampWithImage {
+    margin: 0;
+    float: right;
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    padding: 0 5px 15px 0;
+}
+.lavaLampWithImage li {
+    float: left;
+    list-style: none;
+    max-width: auto;
+}
+.lavaLampWithImage li.back {
+    background: rgb(20, 110, 20);
+    background: -moz-linear-gradient(rgb(254, 233, 0), rgb(255, 0, 0));
+    background: -o-linear-gradient(rgb(254, 233, 0), rgb(255, 0, 0));
+    background: -webkit-linear-gradient(rgb(254, 233, 0), rgb(255, 0, 0));
+    height: 30px;
+    margin-top: 8px;
+    z-index: 8;
+    position: absolute;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px; 
+}
+.lavaLampWithImage li a {
+    color: #fff;
+    font-weight: bold;
+    font: normal 100% 'News Cycle', sans-serif;
+    text-shadow: none;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    letter-spacing: 0;
+    z-index: 10;
+    display: block;
+    font-size: 15px;
+    float: left;
+    line-height: 35px;
+    padding: 5px 0 5px 0;
+    position: relative;
+    overflow: hidden;
+    margin: auto 20px;    
+}
+.lavaLampWithImage li a:hover, .lavaLampWithImage li a:active {
+    border: none;
+    color: #FFF;
+}

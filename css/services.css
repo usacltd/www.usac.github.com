@@ -1,0 +1,114 @@
+#services {
+	width: 100%;
+  	height: auto;
+  	padding-top: 5%;
+  	text-align: center;
+  	padding-bottom: 5%;
+  	background: #f5f8fd;
+}
+.services-container {
+	margin-left: 5%;
+}
+.services-container .card {
+	float: left;
+	width: 30%;
+	height: 400px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-left: 10px;
+	color: #158008;
+	border-radius: 10px;
+	font-size: 15px;
+	text-align: center;
+	background: #fff;
+	position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75)
+}
+.services-container .card:before  {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    width: 50px;
+    height: 3px;
+    opacity: .8;
+    margin: auto;
+    position: absolute;
+    border-radius: 50px;
+    background: rgb(5,65,115);
+    transition: all .5s ease;
+}
+.services-container .card:hover::before {
+	width: 98%;
+	opacity: 1;
+}
+.services-container .card-container {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	overflow: auto;
+	text-align: center;
+}
+.card-container .icon {
+	height: 60px;
+    width: 60px;
+    color: #fff;
+    transition: .8s;
+    text-align: center;
+    border-radius: 50%;
+    margin: 15px auto 20px;
+    background: #8a8a8a;
+}
+.card-container .icon:hover {
+	transition: .5s;
+	background: rgb(5, 65, 115);
+}
+.card-container .icon img {
+	width: 90%;
+	height: 90%;
+}
+.service-name {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.card-container p {
+	font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #838383;
+    margin: 10px 0 10px;
+    text-align: center;
+}
+.more-info {
+	color: #fff;
+	border: none;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 15px 50px;
+	border-radius: 50px;
+	transition: .5s;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: rgb(5,65,115);
+}
+.more-info:hover, 
+.more-info:focus {
+	opacity: .8;
+	transition: .5s;
+}
+.more-modal {
+    display: none; 
+    position: absolute;
+    z-index: 1;
+    width: 100%; 
+    height: 1000px; 
+    overflow: auto; 
+    background: #fff;
+    padding-top: 50px;
+    animation: zoom .5s;
+}

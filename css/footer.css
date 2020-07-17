@@ -1,0 +1,31 @@
+footer {
+	color: #fff
+	height: auto;
+	text-align: center;
+	background: -webkit-linear-gradient(rgb(5,65,115), rgb(20, 110, 20));
+}
+.footer-container {
+	margin-top: 10%;
+	margin-bottom: 20px;
+}
+.footer-title {
+	font-weight: bold;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.footer {
+	width: 100%;
+	text-align: center;
+}
+.footer li {
+	display: inline-block;
+	padding: 5px 10px;
+}
+.footer li a {
+	color: #fff;
+	text-decoration: none;
+}
+.footer li a:hover {
+	color: rgb(5, 65, 115);
+}
