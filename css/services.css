@@ -12,16 +12,17 @@
 .services-container .card {
 	float: left;
 	width: 30%;
-	height: 400px;
-	padding: 20px;
+	height: 500px;
 	margin-top: 10px;
 	margin-right: 0;
+	padding-bottom: 0;
 	margin-left: 10px;
 	color: #158008;
+	padding: 20px;
 	border-radius: 10px;
 	font-size: 15px;
 	text-align: center;
-	background: #fff;
+	background: #f7f7f7;
 	position: relative;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.75)
 }
@@ -32,7 +33,6 @@
     content: '';
     width: 50px;
     height: 3px;
-    opacity: .8;
     margin: auto;
     position: absolute;
     border-radius: 50px;
@@ -41,38 +41,31 @@
 }
 .services-container .card:hover::before {
 	width: 98%;
-	opacity: 1;
+
 }
 .services-container .card-container {
 	width: 100%;
-	height: 100%;
-	padding: 20px;
+	height: 80%;
+	padding: 5%;
 	overflow: auto;
+	overflow-x: hidden;
 	text-align: center;
 }
 .card-container .icon {
 	height: 60px;
     width: 60px;
     color: #fff;
-    transition: .8s;
     text-align: center;
     border-radius: 50%;
     margin: 15px auto 20px;
-    background: #8a8a8a;
+    background: rgb(5,65,115);
 }
 .card-container .icon:hover {
-	transition: .5s;
-	background: rgb(5, 65, 115);
-}
-.card-container .icon img {
-	width: 90%;
-	height: 90%;
+	opacity: .5%;
 }
 .service-name {
 	color: #000;
-	font-size: 20px;
-	font-weight: bold;
-	text-transform: uppercase;
+	font-size: 25px;
 }
 .card-container p {
 	font-size: 15px;
@@ -80,35 +73,25 @@
     line-height: 24px;
     color: #838383;
     margin: 10px 0 10px;
-    text-align: center;
 }
-.more-info {
+.card-footer button {
 	color: #fff;
 	border: none;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-bottom: 20px;
-	padding: 15px 50px;
-	border-radius: 50px;
+	padding: 10px 20px;
+	border-radius: 5px;
 	transition: .5s;
 	font-size: 15px;
-	font-weight: bold;
-	text-decoration: none;
-	text-transform: uppercase;
 	background: rgb(5,65,115);
 }
-.more-info:hover, 
-.more-info:focus {
+.card-footer button:hover, 
+.card-footer button:focus {
 	opacity: .8;
-	transition: .5s;
 }
-.more-modal {
-    display: none; 
-    position: absolute;
-    z-index: 1;
-    width: 100%; 
-    height: 1000px; 
-    overflow: auto; 
-    background: #fff;
-    padding-top: 50px;
-    animation: zoom .5s;
+.card-footer {
+	width: 100%;
+	color: #158008;
+	height: 20%;
+	text-align: center;
 }
